@@ -5,7 +5,6 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <!--uncomment below code-->
                 <% for(var i=0; i<books.length;i++){%>
                     <h3>
                         <%=books[i].title%>
@@ -13,7 +12,7 @@
                     <h4>
                         <%=books[i].author%>
                     </h4>
-                    <a href="/books/<%=i%>" class="text-muted">Read More</a>
+                    <a href="books/<%=books[i]._id%>" class="text-muted">Read More</a>
 
             </div>
         </div>
