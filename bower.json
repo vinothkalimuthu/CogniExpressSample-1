@@ -1,0 +1,21 @@
+{
+  "name": "cogniexpresssample",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "vishal18-gupta <vishal18.gupta@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/vishal18-gupta/CogniExpressSample",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0"
+  }
+}
